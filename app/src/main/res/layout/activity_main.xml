@@ -43,7 +43,7 @@
         android:id="@+id/imageView"
         android:layout_width="565dp"
         android:layout_height="342dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="80dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/mtg_logo_banner"
         app:layout_constraintBottom_toTopOf="@+id/button_Planechase"
