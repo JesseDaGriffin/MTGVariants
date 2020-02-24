@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greybackground"
+    tools:context=".PlanechaseActivity">
+
+    <Button
+        android:id="@+id/button_Rules2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="rulesClicked"
+        android:text="@string/_rules"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_Card"
+        android:layout_width="568dp"
+        android:layout_height="352dp"
+        android:background="@drawable/planechaseback"
+        android:onClick="nextCardClick"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <Button
+        android:id="@+id/button_Die"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/die_chaossymbol"
+        android:onClick="dieRollClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toEndOf="@+id/button_Card"
+        app:layout_constraintTop_toBottomOf="@+id/button_Rules2"
+        app:layout_constraintVertical_bias="0.434" />
+</androidx.constraintlayout.widget.ConstraintLayout>

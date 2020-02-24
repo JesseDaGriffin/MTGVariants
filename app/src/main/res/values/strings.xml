@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MTGVariant</string>
+    <string name="_planechase">Planechase</string>
+    <string name="variants">Variants</string>
+    <string name="_click_to_reveal_first_card">Click to reveal first card</string>
+    <string name="_archenemy">Archenemy</string>
+    <string name="mtg_logo_banner">Mtg logo banner</string>
+    <string name="_rules">Rules</string>
+    <string name="_choose_a_variant">Choose a variant</string>
+</resources>
